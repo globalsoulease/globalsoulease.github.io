@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Soul Ease</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .affiliate-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .affiliate-links a {
+      display: block;
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      text-align: center;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+    .affiliate-links a:hover {
+      background-color: #e9ecef;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌍 Global Soul Ease</h1>
+    <p>Empowering through AI, Chatbots, and Affiliate Links</p>
+  </header>  <section class="section">
+    <h2>🔥 Featured Affiliate Links</h2>
+    <div class="affiliate-links">
+      <a href="https://edu-money.com/?partner=12527" target="_blank">Edu-Money</a>
+      <a href="https://masterpapers-expert.com/?key_wpg=cam8ds" target="_blank">Master Papers</a>
+      <a href="https://nursing-paper.net/?key_wpg=cam8ds" target="_blank">Nursing Papers</a>
+      <a href="https://essaybox.org/?key_wpg=cam8ds" target="_blank">Essay Box</a>
+      <a href="https://grademiners.com/?key_wpg=cam8ds" target="_blank">Grade Miners</a>
+      <a href="https://extraessay.com/?key_cpl=4hy3mq" target="_blank">Extra Essay</a>
+      <a href="https://www.viator.com/?pid=P00197299" target="_blank">Viator Travel</a>
+      <a href="https://yazing.com/topdeals/topcoupons/Egna1" target="_blank">Yazing Deals</a>
+      <a href="https://linktr.ee/globalaffiliatelinks" target="_blank">Global Affiliate Links</a>
+      <a href="https://www.freelancer.com/get/egnatious1?f=give" target="_blank">Hire on Freelancer</a>
+      <a href="https://ko-fi.com/globalsoulease" target="_blank">Support Us on Ko-fi</a>
+    </div>
+  </section>  <section class="section">
+    <h2>💬 Chat With Us Instantly!</h2>
+    <p>The chatbot below helps you navigate, get support, and explore offers instantly.</p>
+  </section>  <!-- Tidio Chatbot Integration -->  <script src="//code.tidio.co/jyfpwksakivlfcrvbeqvzfqafkrmlnbx.js" async></script>  <footer>
+    <p>© 2025 Global Soul Ease | Empowering Digital Connections</p>
+  </footer>
+</body>
+</html>
