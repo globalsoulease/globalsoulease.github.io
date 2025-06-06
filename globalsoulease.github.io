@@ -1,259 +1,157 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Global Soul Ease</title>
+  <title>🌍 Global Soul Ease</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #ede7f6);
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
       color: #333;
     }
+
     header {
-      background: #2e8b57;
+      background: #512da8;
       color: white;
-      padding: 20px;
+      padding: 2rem;
       text-align: center;
     }
-    .container {
-      padding: 20px;
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    .section {
+
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.2rem;
+      margin-top: 2rem;
+    }
+
+    .link-card {
       background: white;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1.2rem;
+      flex: 1 1 300px;
+      text-align: center;
+      transition: 0.3s ease;
     }
-    .button {
-      background: #2e8b57;
-      color: white;
-      padding: 10px 15px;
+
+    .link-card:hover {
+      transform: scale(1.03);
+    }
+
+    .link-card a {
       text-decoration: none;
-      border-radius: 4px;
-      display: inline-block;
-      margin-top: 10px;
+      color: #512da8;
+      font-weight: bold;
     }
-    iframe, .chatbot {
-      border: none;
-      width: 100%;
-      max-width: 400px;
-      height: 300px;
+
+    footer {
+      background: #ede7f6;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
     }
-    input, button {
-      padding: 10px;
-      margin: 5px 0;
-      width: 100%;
-      box-sizing: border-box;
+
+    .image-banner {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .image-banner img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
   </style>
 </head>
-<body>  <header>
-    <h1>🌍 Global Soul Ease</h1>
-    <p>Wellness | Jobs | Learning | AI Support | Affiliate Income</p>
-  </header>  <div class="container"><div class="section">
-  <h2>💡 Learn & Earn (Essay Niche)</h2>
-  <ul>
-    <li><a href="https://edu-money.com/?partner=12527" target="_blank">Edu-Money – Learn & Earn</a></li>
-    <li><a href="https://masterpapers-expert.com/?key_wpg=cam8ds" target="_blank">Master Papers</a></li>
-    <li><a href="https://nursing-paper.net/?key_wpg=cam8ds" target="_blank">Nursing Papers</a></li>
-    <li><a href="https://essaybox.org/?key_wpg=cam8ds" target="_blank">EssayBox.org</a></li>
-    <li><a href="https://grademiners.com/?key_wpg=cam8ds" target="_blank">Grade Miners</a></li>
-    <li><a href="https://extraessay.com/?key_cpl=4hy3mq" target="_blank">Extra Essay</a></li>
-  </ul>
-</div>
+<body>
 
-<div class="section">
-  <h2>✈️ Travel & Shopping</h2>
-  <ul>
-    <li><a href="https://www.viator.com/?pid=P00197299" target="_blank">Viator – Activities & Travel</a></li>
-    <li><a href="https://yazing.com/topdeals/topcoupons/Egna1" target="_blank">Yazing Deals</a></li>
-    <li><a href="https://yazing.com/deals/dollartree/Egna1" target="_blank">Dollar Tree Coupons</a></li>
-  </ul>
-</div>
+<header>
+  <h1>🌍 Global Soul Ease</h1>
+  <p>Empowering Through AI, Chatbots, and Affiliate Links</p>
+</header>
 
-<div class="section">
-  <h2>🎓 Freelancer Opportunity</h2>
-  <p>Get $20 credit on Freelancer.com to start your online career:</p>
-  <a href="https://www.freelancer.com/get/egnatious1?f=give" class="button" target="_blank">Claim $20 Freelancer Credit</a>
-</div>
+<section class="image-banner">
+  <img src="https://via.placeholder.com/800x300?text=Welcome+to+Global+Soul+Ease" alt="Global Soul Ease Banner"/>
+</section>
 
-<div class="section">
-  <h2>🤖 AI Chat Assistant (OpenAI)</h2>
-  <p>Type your question below and get instant answers:</p>
-  <input type="text" id="userInput" placeholder="Ask me anything...">
-  <button onclick="getChatResponse()">Send</button>
-  <pre id="chatOutput"></pre>
-</div>
+<section>
+  <h2>🔥 Featured Offers & Affiliate Links</h2>
+  <div class="links">
 
-<div class="section">
-  <h2>☕ Support Us on Ko-fi</h2>
-  <p>If you love Global Soul Ease, support our mission:</p>
-  <a href="https://ko-fi.com/YOUR_USERNAME" class="button" target="_blank">Support on Ko-fi</a>
-</div>
+    <div class="link-card">
+      <p>✍️ Essay Writing Help</p>
+      <a href="https://essaybox.org/?key_wpg=cam8ds" target="_blank">Visit EssayBox</a>
+    </div>
 
-<div class="section">
-  <h2>📦 Explore All Links</h2>
-  <a href="https://linktr.ee/globalaffiliatelinks" class="button" target="_blank">Global Affiliate Links</a>
-</div>
+    <div class="link-card">
+      <p>🎓 Academic Support</p>
+      <a href="https://masterpapers-expert.com/?key_wpg=cam8ds" target="_blank">Master Papers</a>
+    </div>
 
-<footer style="text-align:center; padding:20px; font-size:0.9em;">
-  <p>© 2025 Global Soul Ease | Built with ❤️ using GitHub & OpenAI</p>
+    <div class="link-card">
+      <p>🩺 Nursing Paper Services</p>
+      <a href="https://nursing-paper.net/?key_wpg=cam8ds" target="_blank">Nursing Paper</a>
+    </div>
+
+    <div class="link-card">
+      <p>🎒 Extra Essay Help</p>
+      <a href="https://extraessay.com/?key_cpl=4hy3mq" target="_blank">Extra Essay</a>
+    </div>
+
+    <div class="link-card">
+      <p>✍️ GradeMiners</p>
+      <a href="https://grademiners.com/?key_wpg=cam8ds" target="_blank">Visit GradeMiners</a>
+    </div>
+
+    <div class="link-card">
+      <p>🧭 Travel & Adventures</p>
+      <a href="https://www.viator.com/?pid=P00197299" target="_blank">Explore on Viator</a>
+    </div>
+
+    <div class="link-card">
+      <p>💰 Hot Deals & Coupons</p>
+      <a href="https://yazing.com/topdeals/topcoupons/Egna1" target="_blank">Check Yazing</a>
+    </div>
+
+    <div class="link-card">
+      <p>🌐 Explore All Links</p>
+      <a href="https://linktr.ee/globalaffiliatelinks" target="_blank">View All on Linktree</a>
+    </div>
+
+    <div class="link-card">
+      <p>☕ Support Us on Ko-fi</p>
+      <a href="https://ko-fi.com/globalsoulease" target="_blank">Buy Us a Coffee</a>
+    </div>
+
+    <div class="link-card">
+      <p>👨‍💻 Hire Freelance Help</p>
+      <a href="https://www.freelancer.com/get/egnatious1?f=give" target="_blank">Freelancer Profile</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Global Soul Ease | Empowering Digital Connections</p>
 </footer>
 
-  </div>  <script>
-    async function getChatResponse() {
-      const prompt = document.getElementById('userInput').value;
-      const output = document.getElementById('chatOutput');
+<!-- ✅ TIDIO CHATBOT -->
+<script src="//code.tidio.co/jyfpwksakivlfcrvbeqvzfqafkrmlnbx.js" async></script>
 
-      output.textContent = 'Thinking...';
-
-      const response = await fetch("https://api.openai.com/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer sk-your-openai-key"
-        },
-        body: JSON.stringify({
-          model: "gpt-3.5-turbo",
-          messages: [{ role: "user", content: prompt }]
-        })
-      });
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Global Soul Ease</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #2e8b57;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .container {
-      padding: 20px;
-    }
-    .section {
-      background: white;
-      padding: 15px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    }
-    .button {
-      background: #2e8b57;
-      color: white;
-      padding: 10px 15px;
-      text-decoration: none;
-      border-radius: 4px;
-      display: inline-block;
-      margin-top: 10px;
-    }
-    iframe, .chatbot {
-      border: none;
-      width: 100%;
-      max-width: 400px;
-      height: 300px;
-    }
-    input, button {
-      padding: 10px;
-      margin: 5px 0;
-      width: 100%;
-      box-sizing: border-box;
-    }
-  </style>
-</head>
-<body>  <header>
-    <h1>🌍 Global Soul Ease</h1>
-    <p>Wellness | Jobs | Learning | AI Support | Affiliate Income</p>
-  </header>  <div class="container"><div class="section">
-  <h2>💡 Learn & Earn (Essay Niche)</h2>
-  <ul>
-    <li><a href="https://edu-money.com/?partner=12527" target="_blank">Edu-Money – Learn & Earn</a></li>
-    <li><a href="https://masterpapers-expert.com/?key_wpg=cam8ds" target="_blank">Master Papers</a></li>
-    <li><a href="https://nursing-paper.net/?key_wpg=cam8ds" target="_blank">Nursing Papers</a></li>
-    <li><a href="https://essaybox.org/?key_wpg=cam8ds" target="_blank">EssayBox.org</a></li>
-    <li><a href="https://grademiners.com/?key_wpg=cam8ds" target="_blank">Grade Miners</a></li>
-    <li><a href="https://extraessay.com/?key_cpl=4hy3mq" target="_blank">Extra Essay</a></li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>✈️ Travel & Shopping</h2>
-  <ul>
-    <li><a href="https://www.viator.com/?pid=P00197299" target="_blank">Viator – Activities & Travel</a></li>
-    <li><a href="https://yazing.com/topdeals/topcoupons/Egna1" target="_blank">Yazing Deals</a></li>
-    <li><a href="https://yazing.com/deals/dollartree/Egna1" target="_blank">Dollar Tree Coupons</a></li>
-  </ul>
-</div>
-
-<div class="section">
-  <h2>🎓 Freelancer Opportunity</h2>
-  <p>Get $20 credit on Freelancer.com to start your online career:</p>
-  <a href="https://www.freelancer.com/get/egnatious1?f=give" class="button" target="_blank">Claim $20 Freelancer Credit</a>
-</div>
-
-<div class="section">
-  <h2>🤖 AI Chat Assistant (OpenAI)</h2>
-  <p>Type your question below and get instant answers:</p>
-  <input type="text" id="userInput" placeholder="Ask me anything...">
-  <button onclick="getChatResponse()">Send</button>
-  <pre id="chatOutput"></pre>
-</div>
-
-<div class="section">
-  <h2>☕ Support Us on Ko-fi</h2>
-  <p>If you love Global Soul Ease, support our mission:</p>
-  <a href="https://ko-fi.com/YOUR_USERNAME" class="button" target="_blank">Support on Ko-fi</a>
-</div>
-
-<div class="section">
-  <h2>📦 Explore All Links</h2>
-  <a href="https://linktr.ee/globalaffiliatelinks" class="button" target="_blank">Global Affiliate Links</a>
-</div>
-
-<footer style="text-align:center; padding:20px; font-size:0.9em;">
-  <p>© 2025 Global Soul Ease | Built with ❤️ using GitHub & OpenAI</p>
-</footer>
-
-  </div>  <script>
-    async function getChatResponse() {
-      const prompt = document.getElementById('userInput').value;
-      const output = document.getElementById('chatOutput');
-
-      output.textContent = 'Thinking...';
-
-      const response = await fetch("https://api.openai.com/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": "Bearer sk-your-openai-key"
-        },
-        body: JSON.stringify({
-          model: "gpt-3.5-turbo",
-          messages: [{ role: "user", content: prompt }]
-        })
-      });
-
-      const data = await response.json();
-      output.textContent = data.choices?.[0]?.message?.content || "No response";
-    }
-  </script></body>
-</html>
-      const data = await response.json();
-      output.textContent = data.choices?.[0]?.message?.content || "No response";
-    }
-  </script></body>
+</body>
 </html>
